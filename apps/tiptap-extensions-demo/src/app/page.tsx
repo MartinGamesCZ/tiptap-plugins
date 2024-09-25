@@ -2,7 +2,7 @@
 
 import { EditorContent, useEditor } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
-import { ImageExtension, ImageAligner } from "@harshtalks/tiptap-image";
+import { ImageExtension, ImageAligner } from "@harshtalks/image-tiptap";
 import Placeholder from "@tiptap/extension-placeholder";
 import {
   Slash,
@@ -10,7 +10,7 @@ import {
   SlashCmdProvider,
   createSuggestionsItems,
   enableKeyboardNavigation,
-} from "@harshtalks/tiptap-slash";
+} from "@harshtalks/slash-tiptap";
 import Link from "next/link";
 
 const suggestions = createSuggestionsItems([

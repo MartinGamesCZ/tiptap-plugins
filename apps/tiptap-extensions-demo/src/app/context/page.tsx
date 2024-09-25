@@ -1,7 +1,7 @@
 "use client";
 
 import StarterKit from "@tiptap/starter-kit";
-import { ImageExtension, ImageAligner } from "@harshtalks/tiptap-image";
+import { ImageExtension, ImageAligner } from "@harshtalks/image-tiptap";
 import Placeholder from "@tiptap/extension-placeholder";
 import {
   Slash,
@@ -9,7 +9,7 @@ import {
   SlashCmdProvider,
   createSuggestionsItems,
   enableKeyboardNavigation,
-} from "@harshtalks/tiptap-slash";
+} from "@harshtalks/slash-tiptap";
 import { EditorProvider } from "@tiptap/react";
 import Link from "next/link";
 
