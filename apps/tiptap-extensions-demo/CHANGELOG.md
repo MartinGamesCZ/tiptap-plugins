@@ -1,5 +1,14 @@
 # tiptap-extensions-demo
 
+## 0.1.13
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @harshtalks/image-tiptap@1.1.0
+  - @harshtalks/slash-tiptap@1.1.0
+
 ## 0.1.12
 
 ### Patch Changes

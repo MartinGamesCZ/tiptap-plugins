@@ -1,7 +1,7 @@
 {
   "name": "@harshtalks/image-tiptap",
   "description": "A Tiptap extension to add image resize and alignment options to the image extension.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "keywords": [
     "tiptap",
     "image",
