@@ -16,10 +16,10 @@ It supports both useEditor hook and EditorProvider from tiptap.
 
 ## Installation
 
-Install my-project with npm
+Install the package using pnpm
 
 ```bash
-  pnpm add @harshtalks/tiptap-image
+  pnpm add @harshtalks/image-tiptap
 ```
 
  You can use npm, bun, or yarn etc.
@@ -29,7 +29,7 @@ Install my-project with npm
  ```tsx
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
-import { ImageExtension, ImageAligner } from "@harshtalks/tiptap-image";
+import { ImageExtension, ImageAligner } from "@harshtalks/image-tiptap";
 import "./globals.css";
 import { useCallback } from "react";
 
@@ -106,7 +106,7 @@ Installing the package using pnpm
 
 1. Define suggestions. Add all the commaands you want in the slash menu.
 ```ts
-import { enableKeyboardNavigation } from "@harshtalks/tiptap-slash";
+import { enableKeyboardNavigation } from "@harshtalks/slash-tiptap";
 
 const suggestions = createSuggestionsItems([
   {
@@ -143,7 +143,7 @@ const suggestions = createSuggestionsItems([
 import {
   Slash,
   enableKeyboardNavigation,
-} from "@harshtalks/tiptap-slash";
+} from "@harshtalks/slash-tiptap";
 
 
 const editor = useEditor({
@@ -186,6 +186,9 @@ const editor = useEditor({
 
 3. Wrap your editor in `SlashCmdProvider` component and add `SlashCmd` component to your editor.
 ```tsx
+import {
+  SlashCmd
+} from "@harshtalks/slash-tiptap";
 
 export const Editor = () => {
   return (

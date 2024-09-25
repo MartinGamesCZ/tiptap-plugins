@@ -19,12 +19,12 @@ Installing the package using pnpm
 
  You can use npm, bun, or yarn etc.
 
- ## Usage
+## Usage
 
  ```tsx
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
-import { ImageExtension, ImageAligner } from "@harshtalks/tiptap-image";
+import { ImageExtension, ImageAligner } from "@harshtalks/image-tiptap";
 import "./globals.css";
 import { useCallback } from "react";
 

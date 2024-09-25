@@ -24,7 +24,7 @@ Installing the package using pnpm
 
 1. Define suggestions. Add all the commaands you want in the slash menu.
 ```ts
-import { enableKeyboardNavigation } from "@harshtalks/tiptap-slash";
+import { enableKeyboardNavigation } from "@harshtalks/slash-tiptap";
 
 const suggestions = createSuggestionsItems([
   {
@@ -61,7 +61,7 @@ const suggestions = createSuggestionsItems([
 import {
   Slash,
   enableKeyboardNavigation,
-} from "@harshtalks/tiptap-slash";
+} from "@harshtalks/slash-tiptap";
 
 
 const editor = useEditor({
@@ -104,6 +104,10 @@ const editor = useEditor({
 
 3. Wrap your editor in `SlashCmdProvider` component and add `SlashCmd` component to your editor.
 ```tsx
+import {
+  SlashCmd
+} from "@harshtalks/slash-tiptap";
+
 
 export const Editor = () => {
   return (
