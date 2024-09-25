@@ -1,11 +1,11 @@
 
-# Tiptap Extensions
+# Tiptap React Extensions
 
-Tiptap extensions and headless components for image nodes and a slash command for React.js
+Tiptap React extensions and headless components for image nodes and a slash command for React.js
 
 ## @harshtalks/image-tiptap
 
-It extends tiptap image extension to support image resizing and alignment.
+It extends @tiptap/react image extension to support image resizing and alignment.
 Existing third party/unofficial plugins are not flexible.
 This package contains -
 1. UI headless components to render alignment menu in a bubble menu.

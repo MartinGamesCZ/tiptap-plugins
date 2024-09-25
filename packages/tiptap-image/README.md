@@ -1,6 +1,6 @@
-# Tiptap Image Extension with Resize and Alignment
+# Image Extension with Resize and Alignment for React.js
 
-It extends tiptap image extension to support image resizing and alignment.
+It extends tiptap image extension to support image resizing and alignment in React.js.
 Existing third party/unofficial plugins are not flexible.
 This package contains -
 1. UI headless components to render alignment menu in a bubble menu.

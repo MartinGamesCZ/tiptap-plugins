@@ -1,4 +1,4 @@
-# Tiptap Slash Command Extension
+# Tiptap Slash Command Extension for React.js
 
 Simple tiptap extension for React to add notion like slash command to your project. It provides a flexible extension built on top of tiptap suggestion extension, and headless UI components built on cmdk package.
 
