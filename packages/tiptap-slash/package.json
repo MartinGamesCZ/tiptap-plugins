@@ -34,7 +34,7 @@
     "ci": "pnpm run build && pnpm run check-exports && pnpm run lint",
     "check-exports": "attw --pack .",
     "prepublishOnly": "pnpm run ci",
-    "local-release": "changeset version && changeset publish"
+    "local-release": "changeset publish"
   },
   "license": "MIT",
   "repository": {
