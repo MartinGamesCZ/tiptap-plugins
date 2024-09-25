@@ -1,7 +1,7 @@
 {
   "name": "@harshtalks/slash-tiptap",
   "description": "notion like slash command for tiptap React.js",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "keywords": [
     "tiptap",
     "slash command",
