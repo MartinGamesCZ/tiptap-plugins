@@ -1,0 +1,56 @@
+{
+  "name": "@harshtalks/slash-tiptap",
+  "description": "notion like slash command for tiptap React.js",
+  "version": "1.0.0",
+  "keywords": [
+    "tiptap",
+    "slash command",
+    "cmdk",
+    "tiptap slash"
+  ],
+  "author": "Harsh Pareek <harshpareek91@gmail.com> (https://hrshwrites.vercel.app)",
+  "type": "module",
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.16.4",
+    "@changesets/cli": "^2.27.8",
+    "@harshtalks/typescript-config": "workspace:*",
+    "@types/node": "^22.6.1",
+    "@types/react": "^18.3.8",
+    "tsup": "^8.3.0",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@tiptap/pm": "^2.7.2",
+    "@tiptap/react": "^2.7.2",
+    "@tiptap/suggestion": "^2.7.2",
+    "@xstate/store": "^2.6.0",
+    "cmdk": "^1.0.0",
+    "react": "^18.3.1",
+    "tippy.js": "^6.3.7"
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc",
+    "ci": "pnpm run build && pnpm run check-exports && pnpm run lint",
+    "check-exports": "attw --pack .",
+    "prepublishOnly": "pnpm run ci",
+    "local-release": "changeset version && changeset publish"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshtalks/tiptap-plugins.git",
+    "directory": "packages/tiptap-slash"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js"
+}

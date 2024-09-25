@@ -1,0 +1,57 @@
+{
+  "name": "@harshtalks/image-tiptap",
+  "description": "A Tiptap extension to add image resize and alignment options to the image extension.",
+  "version": "1.0.0",
+  "keywords": [
+    "tiptap",
+    "image",
+    "extension",
+    "image-resize",
+    "tiptap image",
+    "align image"
+  ],
+  "author": "Harsh Pareek <harshpareek91@gmail.com> (https://hrshwrites.vercel.app)",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc",
+    "ci": "pnpm run build && pnpm run check-exports && pnpm run lint",
+    "check-exports": "attw --pack .",
+    "prepublishOnly": "pnpm run ci",
+    "local-release": "changeset version && changeset publish"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.16.4",
+    "@changesets/cli": "^2.27.8",
+    "@harshtalks/typescript-config": "workspace:*",
+    "@types/node": "^22.6.1",
+    "@types/react": "^18.3.8",
+    "tsup": "^8.3.0",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
+    "@tiptap/extension-image": "^2.7.2",
+    "@tiptap/pm": "^2.7.2",
+    "@tiptap/react": "^2.7.2",
+    "react": "^18.3.1",
+    "react-moveable": "^0.56.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshtalks/tiptap-plugins.git",
+    "directory": "packages/tiptap-image"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js"
+}
