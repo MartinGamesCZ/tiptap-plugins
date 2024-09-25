@@ -1,4 +1,4 @@
-# Tiptap Slash Command
+# Tiptap Slash Command Extension
 
 Simple tiptap extension for React to add notion like slash command to your project. It provides a flexible extension built on top of tiptap suggestion extension, and headless UI components built on cmdk package.
 
@@ -11,8 +11,15 @@ Notes:
 1. Make sure to wrap your entire editor in a `SlashCmdProvider` component.
 2. for keyboard navigation, provide `enableKeyboardNavigationc` in `editorProps` handleDOMEvents.
 
+## Installation
 
-### Usage:
+Installing the package using pnpm
+
+```bash
+  pnpm add @harshtalks/slash-tiptap
+```
+
+## Usage:
 
 
 1. Define suggestions. Add all the commaands you want in the slash menu.

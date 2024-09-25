@@ -1,4 +1,4 @@
-## @harshtalks/tiptap-image
+# Tiptap Image Extension with Resize and Alignment
 
 It extends tiptap image extension to support image resizing and alignment.
 Existing third party/unofficial plugins are not flexible.
@@ -11,10 +11,10 @@ It supports both useEditor hook and EditorProvider from tiptap.
 
 ## Installation
 
-Install my-project with npm
+Installing the package using pnpm
 
 ```bash
-  pnpm add @harshtalks/tiptap-image
+  pnpm add @harshtalks/image-tiptap
 ```
 
  You can use npm, bun, or yarn etc.
@@ -22,8 +22,6 @@ Install my-project with npm
  ## Usage
 
  ```tsx
-"use client";
-
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import { ImageExtension, ImageAligner } from "@harshtalks/tiptap-image";
