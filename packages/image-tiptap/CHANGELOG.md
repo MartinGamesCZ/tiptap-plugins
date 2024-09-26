@@ -1,5 +1,11 @@
 # @harshtalks/image-tiptap
 
+## 1.4.0
+
+### Minor Changes
+
+- margin top issue for centered aligned images
+
 ## 1.3.0
 
 ### Minor Changes

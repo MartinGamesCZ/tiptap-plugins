@@ -1,7 +1,7 @@
 {
   "name": "@harshtalks/image-tiptap",
   "description": "A Tiptap extension for React.js to add image resize and alignment options to the image extension.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "keywords": [
     "tiptap",
     "image",
